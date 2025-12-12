@@ -1,0 +1,267 @@
+{
+  "published": [
+    {
+      "name": "@dino-rn-primitives/alert-dialog",
+      "dir": "alert-dialog",
+      "localVersion": "1.2.0",
+      "npmVersion": "1.2.0",
+      "allVersions": [
+        "1.2.0"
+      ]
+    },
+    {
+      "name": "@dino-rn-primitives/aspect-ratio",
+      "dir": "aspect-ratio",
+      "localVersion": "1.2.0",
+      "npmVersion": "1.2.0",
+      "allVersions": [
+        "1.2.0"
+      ]
+    },
+    {
+      "name": "@dino-rn-primitives/avatar",
+      "dir": "avatar",
+      "localVersion": "1.2.0",
+      "npmVersion": "1.2.0",
+      "allVersions": [
+        "1.2.0"
+      ]
+    },
+    {
+      "name": "@dino-rn-primitives/collapsible",
+      "dir": "collapsible",
+      "localVersion": "1.2.0",
+      "npmVersion": "1.2.0",
+      "allVersions": [
+        "1.2.0"
+      ]
+    },
+    {
+      "name": "@dino-rn-primitives/dialog",
+      "dir": "dialog",
+      "localVersion": "1.2.0",
+      "npmVersion": "1.2.0",
+      "allVersions": [
+        "1.2.0"
+      ]
+    },
+    {
+      "name": "@dino-rn-primitives/dropdown-menu",
+      "dir": "dropdown-menu",
+      "localVersion": "1.2.0",
+      "npmVersion": "1.2.0",
+      "allVersions": [
+        "1.2.0"
+      ]
+    },
+    {
+      "name": "@dino-rn-primitives/hooks",
+      "dir": "hooks",
+      "localVersion": "1.3.0",
+      "npmVersion": "1.3.0",
+      "allVersions": [
+        "1.3.0"
+      ]
+    },
+    {
+      "name": "@dino-rn-primitives/hover-card",
+      "dir": "hover-card",
+      "localVersion": "1.2.0",
+      "npmVersion": "1.2.0",
+      "allVersions": [
+        "1.2.0"
+      ]
+    },
+    {
+      "name": "@dino-rn-primitives/label",
+      "dir": "label",
+      "localVersion": "1.2.0",
+      "npmVersion": "1.2.0",
+      "allVersions": [
+        "1.2.0"
+      ]
+    },
+    {
+      "name": "@dino-rn-primitives/navigation-menu",
+      "dir": "navigation-menu",
+      "localVersion": "1.2.0",
+      "npmVersion": "1.2.0",
+      "allVersions": [
+        "1.2.0"
+      ]
+    },
+    {
+      "name": "@dino-rn-primitives/progress",
+      "dir": "progress",
+      "localVersion": "1.2.0",
+      "npmVersion": "1.2.0",
+      "allVersions": [
+        "1.2.0"
+      ]
+    },
+    {
+      "name": "@dino-rn-primitives/radio-group",
+      "dir": "radio-group",
+      "localVersion": "1.2.0",
+      "npmVersion": "1.2.0",
+      "allVersions": [
+        "1.2.0"
+      ]
+    },
+    {
+      "name": "@dino-rn-primitives/separator",
+      "dir": "separator",
+      "localVersion": "1.2.0",
+      "npmVersion": "1.2.0",
+      "allVersions": [
+        "1.2.0"
+      ]
+    },
+    {
+      "name": "@dino-rn-primitives/slider",
+      "dir": "slider",
+      "localVersion": "1.2.0",
+      "npmVersion": "1.2.0",
+      "allVersions": [
+        "1.2.0"
+      ]
+    },
+    {
+      "name": "@dino-rn-primitives/slot",
+      "dir": "slot",
+      "localVersion": "1.2.0",
+      "npmVersion": "1.2.0",
+      "allVersions": [
+        "1.2.0"
+      ]
+    },
+    {
+      "name": "@dino-rn-primitives/switch",
+      "dir": "switch",
+      "localVersion": "1.2.0",
+      "npmVersion": "1.2.0",
+      "allVersions": [
+        "1.2.0"
+      ]
+    },
+    {
+      "name": "@dino-rn-primitives/table",
+      "dir": "table",
+      "localVersion": "1.2.1",
+      "npmVersion": "1.2.0",
+      "allVersions": [
+        "1.2.0"
+      ]
+    },
+    {
+      "name": "@dino-rn-primitives/tabs",
+      "dir": "tabs",
+      "localVersion": "1.2.0",
+      "npmVersion": "1.2.0",
+      "allVersions": [
+        "1.2.0"
+      ]
+    },
+    {
+      "name": "@dino-rn-primitives/toast",
+      "dir": "toast",
+      "localVersion": "1.2.0",
+      "npmVersion": "1.2.0",
+      "allVersions": [
+        "1.2.0"
+      ]
+    },
+    {
+      "name": "@dino-rn-primitives/toggle",
+      "dir": "toggle",
+      "localVersion": "1.2.0",
+      "npmVersion": "1.2.0",
+      "allVersions": [
+        "1.2.0"
+      ]
+    },
+    {
+      "name": "@dino-rn-primitives/toggle-group",
+      "dir": "toggle-group",
+      "localVersion": "1.2.0",
+      "npmVersion": "1.2.0",
+      "allVersions": [
+        "1.2.0"
+      ]
+    },
+    {
+      "name": "@dino-rn-primitives/toolbar",
+      "dir": "toolbar",
+      "localVersion": "1.2.0",
+      "npmVersion": "1.2.0",
+      "allVersions": [
+        "1.2.0"
+      ]
+    },
+    {
+      "name": "@dino-rn-primitives/tooltip",
+      "dir": "tooltip",
+      "localVersion": "1.2.0",
+      "npmVersion": "1.2.0",
+      "allVersions": [
+        "1.2.0"
+      ]
+    },
+    {
+      "name": "@dino-rn-primitives/types",
+      "dir": "types",
+      "localVersion": "1.2.0",
+      "npmVersion": "1.2.0",
+      "allVersions": [
+        "1.2.0"
+      ]
+    },
+    {
+      "name": "@dino-rn-primitives/utils",
+      "dir": "utils",
+      "localVersion": "1.2.0",
+      "npmVersion": "1.2.0",
+      "allVersions": [
+        "1.2.0"
+      ]
+    }
+  ],
+  "unpublished": [
+    {
+      "name": "@dino-rn-primitives/accordion",
+      "dir": "accordion",
+      "localVersion": "1.2.0"
+    },
+    {
+      "name": "@dino-rn-primitives/checkbox",
+      "dir": "checkbox",
+      "localVersion": "1.2.0"
+    },
+    {
+      "name": "@dino-rn-primitives/context-menu",
+      "dir": "context-menu",
+      "localVersion": "1.2.0"
+    },
+    {
+      "name": "@dino-rn-primitives/menubar",
+      "dir": "menubar",
+      "localVersion": "1.2.0"
+    },
+    {
+      "name": "@dino-rn-primitives/popover",
+      "dir": "popover",
+      "localVersion": "1.2.0"
+    },
+    {
+      "name": "@dino-rn-primitives/portal",
+      "dir": "portal",
+      "localVersion": "1.3.0"
+    },
+    {
+      "name": "@dino-rn-primitives/select",
+      "dir": "select",
+      "localVersion": "1.2.0"
+    }
+  ],
+  "timestamp": "2025-12-12T08:30:46.574Z"
+}
