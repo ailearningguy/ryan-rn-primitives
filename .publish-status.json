@@ -1,0 +1,176 @@
+{
+  "published": [
+    {
+      "name": "@dino-rn-primitives/alert-dialog",
+      "version": "1.2.0",
+      "path": "alert-dialog"
+    },
+    {
+      "name": "@dino-rn-primitives/aspect-ratio",
+      "version": "1.2.0",
+      "path": "aspect-ratio"
+    },
+    {
+      "name": "@dino-rn-primitives/avatar",
+      "version": "1.2.0",
+      "path": "avatar"
+    },
+    {
+      "name": "@dino-rn-primitives/collapsible",
+      "version": "1.2.0",
+      "path": "collapsible"
+    },
+    {
+      "name": "@dino-rn-primitives/dialog",
+      "version": "1.2.0",
+      "path": "dialog"
+    },
+    {
+      "name": "@dino-rn-primitives/dropdown-menu",
+      "version": "1.2.0",
+      "path": "dropdown-menu"
+    },
+    {
+      "name": "@dino-rn-primitives/hooks",
+      "version": "1.3.0",
+      "path": "hooks"
+    },
+    {
+      "name": "@dino-rn-primitives/hover-card",
+      "version": "1.2.0",
+      "path": "hover-card"
+    },
+    {
+      "name": "@dino-rn-primitives/label",
+      "version": "1.2.0",
+      "path": "label"
+    },
+    {
+      "name": "@dino-rn-primitives/navigation-menu",
+      "version": "1.2.0",
+      "path": "navigation-menu"
+    },
+    {
+      "name": "@dino-rn-primitives/progress",
+      "version": "1.2.0",
+      "path": "progress"
+    },
+    {
+      "name": "@dino-rn-primitives/radio-group",
+      "version": "1.2.0",
+      "path": "radio-group"
+    },
+    {
+      "name": "@dino-rn-primitives/separator",
+      "version": "1.2.0",
+      "path": "separator"
+    },
+    {
+      "name": "@dino-rn-primitives/slider",
+      "version": "1.2.0",
+      "path": "slider"
+    },
+    {
+      "name": "@dino-rn-primitives/slot",
+      "version": "1.2.0",
+      "path": "slot"
+    },
+    {
+      "name": "@dino-rn-primitives/switch",
+      "version": "1.2.0",
+      "path": "switch"
+    },
+    {
+      "name": "@dino-rn-primitives/tabs",
+      "version": "1.2.0",
+      "path": "tabs"
+    },
+    {
+      "name": "@dino-rn-primitives/toast",
+      "version": "1.2.0",
+      "path": "toast"
+    },
+    {
+      "name": "@dino-rn-primitives/toggle",
+      "version": "1.2.0",
+      "path": "toggle"
+    },
+    {
+      "name": "@dino-rn-primitives/toggle-group",
+      "version": "1.2.0",
+      "path": "toggle-group"
+    },
+    {
+      "name": "@dino-rn-primitives/toolbar",
+      "version": "1.2.0",
+      "path": "toolbar"
+    },
+    {
+      "name": "@dino-rn-primitives/tooltip",
+      "version": "1.2.0",
+      "path": "tooltip"
+    },
+    {
+      "name": "@dino-rn-primitives/types",
+      "version": "1.2.0",
+      "path": "types"
+    },
+    {
+      "name": "@dino-rn-primitives/utils",
+      "version": "1.2.0",
+      "path": "utils"
+    }
+  ],
+  "unpublished": [
+    {
+      "name": "@dino-rn-primitives/accordion",
+      "version": "1.2.0",
+      "path": "accordion",
+      "latestVersion": "none"
+    },
+    {
+      "name": "@dino-rn-primitives/checkbox",
+      "version": "1.2.0",
+      "path": "checkbox",
+      "latestVersion": "none"
+    },
+    {
+      "name": "@dino-rn-primitives/context-menu",
+      "version": "1.2.0",
+      "path": "context-menu",
+      "latestVersion": "none"
+    },
+    {
+      "name": "@dino-rn-primitives/menubar",
+      "version": "1.2.0",
+      "path": "menubar",
+      "latestVersion": "none"
+    },
+    {
+      "name": "@dino-rn-primitives/popover",
+      "version": "1.2.0",
+      "path": "popover",
+      "latestVersion": "none"
+    },
+    {
+      "name": "@dino-rn-primitives/portal",
+      "version": "1.3.0",
+      "path": "portal",
+      "latestVersion": "none"
+    },
+    {
+      "name": "@dino-rn-primitives/select",
+      "version": "1.2.0",
+      "path": "select",
+      "latestVersion": "none"
+    },
+    {
+      "name": "@dino-rn-primitives/table",
+      "version": "1.2.1",
+      "path": "table",
+      "latestVersion": "1.2.0"
+    }
+  ],
+  "errors": [],
+  "timestamp": "2025-12-12T08:50:21.247Z"
+}
