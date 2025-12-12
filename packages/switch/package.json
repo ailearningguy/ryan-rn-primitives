@@ -1,5 +1,5 @@
 {
-  "name": "@dino-rn-primitives/switch",
+  "name": "@ryan-rn-primitives/switch",
   "version": "1.2.0",
   "description": "Primitive switch",
   "license": "MIT",
@@ -33,8 +33,8 @@
   },
   "dependencies": {
     "@radix-ui/react-switch": "^1.2.5",
-    "@dino-rn-primitives/slot": "workspace:*",
-    "@dino-rn-primitives/types": "workspace:*"
+    "@ryan-rn-primitives/slot": "workspace:*",
+    "@ryan-rn-primitives/types": "workspace:*"
   },
   "devDependencies": {
     "@tsconfig/react-native": "^1.0.1",

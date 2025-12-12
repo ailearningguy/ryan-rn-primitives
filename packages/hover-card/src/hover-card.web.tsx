@@ -1,6 +1,6 @@
 import * as HoverCard from '@radix-ui/react-hover-card';
-import { useAugmentedRef } from '@dino-rn-primitives/hooks';
-import * as Slot from '@dino-rn-primitives/slot';
+import { useAugmentedRef } from '@ryan-rn-primitives/hooks';
+import * as Slot from '@ryan-rn-primitives/slot';
 import * as React from 'react';
 import { Pressable, View } from 'react-native';
 import type {

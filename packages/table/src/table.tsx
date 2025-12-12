@@ -1,10 +1,10 @@
-import * as Slot from '@dino-rn-primitives/slot';
+import * as Slot from '@ryan-rn-primitives/slot';
 import type {
   PressableRef,
   SlottablePressableProps,
   SlottableViewProps,
   ViewRef,
-} from '@dino-rn-primitives/types';
+} from '@ryan-rn-primitives/types';
 import * as React from 'react';
 import { Pressable, View } from 'react-native';
 

@@ -1,5 +1,5 @@
 {
-  "name": "@dino-rn-primitives/hooks",
+  "name": "@ryan-rn-primitives/hooks",
   "version": "1.3.0",
   "description": "Primitive hooks",
   "license": "MIT",
@@ -26,7 +26,7 @@
     "pub:release": "pnpm publish --access public"
   },
   "dependencies": {
-    "@dino-rn-primitives/types": "workspace:*"
+    "@ryan-rn-primitives/types": "workspace:*"
   },
   "devDependencies": {
     "@tsconfig/react-native": "^1.0.1",

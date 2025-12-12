@@ -20,18 +20,18 @@ importers:
 
   packages/accordion:
     dependencies:
-      '@dino-rn-primitives/hooks':
-        specifier: workspace:*
-        version: link:../hooks
-      '@dino-rn-primitives/slot':
-        specifier: workspace:*
-        version: link:../slot
-      '@dino-rn-primitives/types':
-        specifier: workspace:*
-        version: link:../types
       '@radix-ui/react-accordion':
         specifier: ^1.2.11
         version: 1.2.11(@types/react-dom@19.1.5(@types/react@19.0.14))(@types/react@19.0.14)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@ryan-rn-primitives/hooks':
+        specifier: workspace:*
+        version: link:../hooks
+      '@ryan-rn-primitives/slot':
+        specifier: workspace:*
+        version: link:../slot
+      '@ryan-rn-primitives/types':
+        specifier: workspace:*
+        version: link:../types
       react-native-web:
         specifier: '*'
         version: 0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -54,23 +54,23 @@ importers:
 
   packages/alert-dialog:
     dependencies:
-      '@dino-rn-primitives/hooks':
-        specifier: workspace:*
-        version: link:../hooks
-      '@dino-rn-primitives/slot':
-        specifier: workspace:*
-        version: link:../slot
-      '@dino-rn-primitives/types':
-        specifier: workspace:*
-        version: link:../types
       '@radix-ui/react-alert-dialog':
         specifier: ^1.1.14
         version: 1.1.14(@types/react-dom@19.1.5(@types/react@19.0.14))(@types/react@19.0.14)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@ryan-rn-primitives/hooks':
+        specifier: workspace:*
+        version: link:../hooks
+      '@ryan-rn-primitives/slot':
+        specifier: workspace:*
+        version: link:../slot
+      '@ryan-rn-primitives/types':
+        specifier: workspace:*
+        version: link:../types
       react-native-web:
         specifier: '*'
         version: 0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
     devDependencies:
-      '@dino-rn-primitives/portal':
+      '@ryan-rn-primitives/portal':
         specifier: workspace:*
         version: link:../portal
       '@tsconfig/react-native':
@@ -91,10 +91,10 @@ importers:
 
   packages/aspect-ratio:
     dependencies:
-      '@dino-rn-primitives/slot':
+      '@ryan-rn-primitives/slot':
         specifier: workspace:*
         version: link:../slot
-      '@dino-rn-primitives/types':
+      '@ryan-rn-primitives/types':
         specifier: workspace:*
         version: link:../types
       react-native-web:
@@ -119,13 +119,13 @@ importers:
 
   packages/avatar:
     dependencies:
-      '@dino-rn-primitives/hooks':
+      '@ryan-rn-primitives/hooks':
         specifier: workspace:*
         version: link:../hooks
-      '@dino-rn-primitives/slot':
+      '@ryan-rn-primitives/slot':
         specifier: workspace:*
         version: link:../slot
-      '@dino-rn-primitives/types':
+      '@ryan-rn-primitives/types':
         specifier: workspace:*
         version: link:../types
       react-native-web:
@@ -150,18 +150,18 @@ importers:
 
   packages/checkbox:
     dependencies:
-      '@dino-rn-primitives/hooks':
-        specifier: workspace:*
-        version: link:../hooks
-      '@dino-rn-primitives/slot':
-        specifier: workspace:*
-        version: link:../slot
-      '@dino-rn-primitives/types':
-        specifier: workspace:*
-        version: link:../types
       '@radix-ui/react-checkbox':
         specifier: ^1.3.2
         version: 1.3.2(@types/react-dom@19.1.5(@types/react@19.0.14))(@types/react@19.0.14)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@ryan-rn-primitives/hooks':
+        specifier: workspace:*
+        version: link:../hooks
+      '@ryan-rn-primitives/slot':
+        specifier: workspace:*
+        version: link:../slot
+      '@ryan-rn-primitives/types':
+        specifier: workspace:*
+        version: link:../types
       react-native-web:
         specifier: '*'
         version: 0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -184,18 +184,18 @@ importers:
 
   packages/collapsible:
     dependencies:
-      '@dino-rn-primitives/hooks':
-        specifier: workspace:*
-        version: link:../hooks
-      '@dino-rn-primitives/slot':
-        specifier: workspace:*
-        version: link:../slot
-      '@dino-rn-primitives/types':
-        specifier: workspace:*
-        version: link:../types
       '@radix-ui/react-collapsible':
         specifier: ^1.1.11
         version: 1.1.11(@types/react-dom@19.1.5(@types/react@19.0.14))(@types/react@19.0.14)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@ryan-rn-primitives/hooks':
+        specifier: workspace:*
+        version: link:../hooks
+      '@ryan-rn-primitives/slot':
+        specifier: workspace:*
+        version: link:../slot
+      '@ryan-rn-primitives/types':
+        specifier: workspace:*
+        version: link:../types
       react-native-web:
         specifier: '*'
         version: 0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -218,26 +218,26 @@ importers:
 
   packages/context-menu:
     dependencies:
-      '@dino-rn-primitives/hooks':
-        specifier: workspace:*
-        version: link:../hooks
-      '@dino-rn-primitives/slot':
-        specifier: workspace:*
-        version: link:../slot
-      '@dino-rn-primitives/types':
-        specifier: workspace:*
-        version: link:../types
-      '@dino-rn-primitives/utils':
-        specifier: workspace:*
-        version: link:../utils
       '@radix-ui/react-context-menu':
         specifier: ^2.2.15
         version: 2.2.15(@types/react-dom@19.1.5(@types/react@19.0.14))(@types/react@19.0.14)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@ryan-rn-primitives/hooks':
+        specifier: workspace:*
+        version: link:../hooks
+      '@ryan-rn-primitives/slot':
+        specifier: workspace:*
+        version: link:../slot
+      '@ryan-rn-primitives/types':
+        specifier: workspace:*
+        version: link:../types
+      '@ryan-rn-primitives/utils':
+        specifier: workspace:*
+        version: link:../utils
       react-native-web:
         specifier: '*'
         version: 0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
     devDependencies:
-      '@dino-rn-primitives/portal':
+      '@ryan-rn-primitives/portal':
         specifier: workspace:*
         version: link:../portal
       '@tsconfig/react-native':
@@ -258,23 +258,23 @@ importers:
 
   packages/dialog:
     dependencies:
-      '@dino-rn-primitives/hooks':
-        specifier: workspace:*
-        version: link:../hooks
-      '@dino-rn-primitives/slot':
-        specifier: workspace:*
-        version: link:../slot
-      '@dino-rn-primitives/types':
-        specifier: workspace:*
-        version: link:../types
       '@radix-ui/react-dialog':
         specifier: ^1.1.14
         version: 1.1.14(@types/react-dom@19.1.5(@types/react@19.0.14))(@types/react@19.0.14)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@ryan-rn-primitives/hooks':
+        specifier: workspace:*
+        version: link:../hooks
+      '@ryan-rn-primitives/slot':
+        specifier: workspace:*
+        version: link:../slot
+      '@ryan-rn-primitives/types':
+        specifier: workspace:*
+        version: link:../types
       react-native-web:
         specifier: '*'
         version: 0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
     devDependencies:
-      '@dino-rn-primitives/portal':
+      '@ryan-rn-primitives/portal':
         specifier: workspace:*
         version: link:../portal
       '@tsconfig/react-native':
@@ -295,26 +295,26 @@ importers:
 
   packages/dropdown-menu:
     dependencies:
-      '@dino-rn-primitives/hooks':
-        specifier: workspace:*
-        version: link:../hooks
-      '@dino-rn-primitives/slot':
-        specifier: workspace:*
-        version: link:../slot
-      '@dino-rn-primitives/types':
-        specifier: workspace:*
-        version: link:../types
-      '@dino-rn-primitives/utils':
-        specifier: workspace:*
-        version: link:../utils
       '@radix-ui/react-dropdown-menu':
         specifier: ^2.1.15
         version: 2.1.15(@types/react-dom@19.1.5(@types/react@19.0.14))(@types/react@19.0.14)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@ryan-rn-primitives/hooks':
+        specifier: workspace:*
+        version: link:../hooks
+      '@ryan-rn-primitives/slot':
+        specifier: workspace:*
+        version: link:../slot
+      '@ryan-rn-primitives/types':
+        specifier: workspace:*
+        version: link:../types
+      '@ryan-rn-primitives/utils':
+        specifier: workspace:*
+        version: link:../utils
       react-native-web:
         specifier: '*'
         version: 0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
     devDependencies:
-      '@dino-rn-primitives/portal':
+      '@ryan-rn-primitives/portal':
         specifier: workspace:*
         version: link:../portal
       '@tsconfig/react-native':
@@ -335,7 +335,7 @@ importers:
 
   packages/hooks:
     dependencies:
-      '@dino-rn-primitives/types':
+      '@ryan-rn-primitives/types':
         specifier: workspace:*
         version: link:../types
       react-native-web:
@@ -360,26 +360,26 @@ importers:
 
   packages/hover-card:
     dependencies:
-      '@dino-rn-primitives/hooks':
-        specifier: workspace:*
-        version: link:../hooks
-      '@dino-rn-primitives/popover':
-        specifier: workspace:*
-        version: link:../popover
-      '@dino-rn-primitives/slot':
-        specifier: workspace:*
-        version: link:../slot
-      '@dino-rn-primitives/types':
-        specifier: workspace:*
-        version: link:../types
       '@radix-ui/react-hover-card':
         specifier: ^1.1.14
         version: 1.1.14(@types/react-dom@19.1.5(@types/react@19.0.14))(@types/react@19.0.14)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@ryan-rn-primitives/hooks':
+        specifier: workspace:*
+        version: link:../hooks
+      '@ryan-rn-primitives/popover':
+        specifier: workspace:*
+        version: link:../popover
+      '@ryan-rn-primitives/slot':
+        specifier: workspace:*
+        version: link:../slot
+      '@ryan-rn-primitives/types':
+        specifier: workspace:*
+        version: link:../types
       react-native-web:
         specifier: '*'
         version: 0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
     devDependencies:
-      '@dino-rn-primitives/portal':
+      '@ryan-rn-primitives/portal':
         specifier: workspace:*
         version: link:../portal
       '@tsconfig/react-native':
@@ -400,15 +400,15 @@ importers:
 
   packages/label:
     dependencies:
-      '@dino-rn-primitives/slot':
-        specifier: workspace:*
-        version: link:../slot
-      '@dino-rn-primitives/types':
-        specifier: workspace:*
-        version: link:../types
       '@radix-ui/react-label':
         specifier: ^2.1.7
         version: 2.1.7(@types/react-dom@19.1.5(@types/react@19.0.14))(@types/react@19.0.14)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@ryan-rn-primitives/slot':
+        specifier: workspace:*
+        version: link:../slot
+      '@ryan-rn-primitives/types':
+        specifier: workspace:*
+        version: link:../types
       react-native-web:
         specifier: '*'
         version: 0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -431,26 +431,26 @@ importers:
 
   packages/menubar:
     dependencies:
-      '@dino-rn-primitives/hooks':
-        specifier: workspace:*
-        version: link:../hooks
-      '@dino-rn-primitives/slot':
-        specifier: workspace:*
-        version: link:../slot
-      '@dino-rn-primitives/types':
-        specifier: workspace:*
-        version: link:../types
-      '@dino-rn-primitives/utils':
-        specifier: workspace:*
-        version: link:../utils
       '@radix-ui/react-menubar':
         specifier: ^1.1.15
         version: 1.1.15(@types/react-dom@19.1.5(@types/react@19.0.14))(@types/react@19.0.14)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@ryan-rn-primitives/hooks':
+        specifier: workspace:*
+        version: link:../hooks
+      '@ryan-rn-primitives/slot':
+        specifier: workspace:*
+        version: link:../slot
+      '@ryan-rn-primitives/types':
+        specifier: workspace:*
+        version: link:../types
+      '@ryan-rn-primitives/utils':
+        specifier: workspace:*
+        version: link:../utils
       react-native-web:
         specifier: '*'
         version: 0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
     devDependencies:
-      '@dino-rn-primitives/portal':
+      '@ryan-rn-primitives/portal':
         specifier: workspace:*
         version: link:../portal
       '@tsconfig/react-native':
@@ -471,26 +471,26 @@ importers:
 
   packages/navigation-menu:
     dependencies:
-      '@dino-rn-primitives/hooks':
-        specifier: workspace:*
-        version: link:../hooks
-      '@dino-rn-primitives/slot':
-        specifier: workspace:*
-        version: link:../slot
-      '@dino-rn-primitives/types':
-        specifier: workspace:*
-        version: link:../types
-      '@dino-rn-primitives/utils':
-        specifier: workspace:*
-        version: link:../utils
       '@radix-ui/react-navigation-menu':
         specifier: ^1.2.13
         version: 1.2.13(@types/react-dom@19.1.5(@types/react@19.0.14))(@types/react@19.0.14)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@ryan-rn-primitives/hooks':
+        specifier: workspace:*
+        version: link:../hooks
+      '@ryan-rn-primitives/slot':
+        specifier: workspace:*
+        version: link:../slot
+      '@ryan-rn-primitives/types':
+        specifier: workspace:*
+        version: link:../types
+      '@ryan-rn-primitives/utils':
+        specifier: workspace:*
+        version: link:../utils
       react-native-web:
         specifier: '*'
         version: 0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
     devDependencies:
-      '@dino-rn-primitives/portal':
+      '@ryan-rn-primitives/portal':
         specifier: workspace:*
         version: link:../portal
       '@tsconfig/react-native':
@@ -511,23 +511,23 @@ importers:
 
   packages/popover:
     dependencies:
-      '@dino-rn-primitives/hooks':
-        specifier: workspace:*
-        version: link:../hooks
-      '@dino-rn-primitives/slot':
-        specifier: workspace:*
-        version: link:../slot
-      '@dino-rn-primitives/types':
-        specifier: workspace:*
-        version: link:../types
       '@radix-ui/react-popover':
         specifier: ^1.1.14
         version: 1.1.14(@types/react-dom@19.1.5(@types/react@19.0.14))(@types/react@19.0.14)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@ryan-rn-primitives/hooks':
+        specifier: workspace:*
+        version: link:../hooks
+      '@ryan-rn-primitives/slot':
+        specifier: workspace:*
+        version: link:../slot
+      '@ryan-rn-primitives/types':
+        specifier: workspace:*
+        version: link:../types
       react-native-web:
         specifier: '*'
         version: 0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
     devDependencies:
-      '@dino-rn-primitives/portal':
+      '@ryan-rn-primitives/portal':
         specifier: workspace:*
         version: link:../portal
       '@tsconfig/react-native':
@@ -573,15 +573,15 @@ importers:
 
   packages/progress:
     dependencies:
-      '@dino-rn-primitives/slot':
-        specifier: workspace:*
-        version: link:../slot
-      '@dino-rn-primitives/types':
-        specifier: workspace:*
-        version: link:../types
       '@radix-ui/react-progress':
         specifier: ^1.1.7
         version: 1.1.7(@types/react-dom@19.1.5(@types/react@19.0.14))(@types/react@19.0.14)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@ryan-rn-primitives/slot':
+        specifier: workspace:*
+        version: link:../slot
+      '@ryan-rn-primitives/types':
+        specifier: workspace:*
+        version: link:../types
       react-native-web:
         specifier: '*'
         version: 0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -604,15 +604,133 @@ importers:
 
   packages/radio-group:
     dependencies:
-      '@dino-rn-primitives/slot':
-        specifier: workspace:*
-        version: link:../slot
-      '@dino-rn-primitives/types':
-        specifier: workspace:*
-        version: link:../types
       '@radix-ui/react-radio-group':
         specifier: ^1.3.7
         version: 1.3.7(@types/react-dom@19.1.5(@types/react@19.0.14))(@types/react@19.0.14)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@ryan-rn-primitives/slot':
+        specifier: workspace:*
+        version: link:../slot
+      '@ryan-rn-primitives/types':
+        specifier: workspace:*
+        version: link:../types
+      react-native-web:
+        specifier: '*'
+        version: 0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+    devDependencies:
+      '@tsconfig/react-native':
+        specifier: ^1.0.1
+        version: 1.0.5
+      '@types/react':
+        specifier: ~19.0.14
+        version: 19.0.14
+      react:
+        specifier: 19.0.0
+        version: 19.0.0
+      react-native:
+        specifier: 0.79.2
+        version: 0.79.2(@babel/core@7.27.1)(@types/react@19.0.14)(react@19.0.0)
+      tsup:
+        specifier: ^8.1.0
+        version: 8.5.0(jiti@1.21.7)(postcss@8.5.3)(typescript@5.8.3)(yaml@2.8.0)
+
+  packages/ryan-rn-primitives:
+    dependencies:
+      '@ryan-rn-primitives/accordion':
+        specifier: workspace:*
+        version: link:../accordion
+      '@ryan-rn-primitives/alert-dialog':
+        specifier: workspace:*
+        version: link:../alert-dialog
+      '@ryan-rn-primitives/aspect-ratio':
+        specifier: workspace:*
+        version: link:../aspect-ratio
+      '@ryan-rn-primitives/avatar':
+        specifier: workspace:*
+        version: link:../avatar
+      '@ryan-rn-primitives/checkbox':
+        specifier: workspace:*
+        version: link:../checkbox
+      '@ryan-rn-primitives/collapsible':
+        specifier: workspace:*
+        version: link:../collapsible
+      '@ryan-rn-primitives/context-menu':
+        specifier: workspace:*
+        version: link:../context-menu
+      '@ryan-rn-primitives/dialog':
+        specifier: workspace:*
+        version: link:../dialog
+      '@ryan-rn-primitives/dropdown-menu':
+        specifier: workspace:*
+        version: link:../dropdown-menu
+      '@ryan-rn-primitives/hooks':
+        specifier: workspace:*
+        version: link:../hooks
+      '@ryan-rn-primitives/hover-card':
+        specifier: workspace:*
+        version: link:../hover-card
+      '@ryan-rn-primitives/label':
+        specifier: workspace:*
+        version: link:../label
+      '@ryan-rn-primitives/menubar':
+        specifier: workspace:*
+        version: link:../menubar
+      '@ryan-rn-primitives/navigation-menu':
+        specifier: workspace:*
+        version: link:../navigation-menu
+      '@ryan-rn-primitives/popover':
+        specifier: workspace:*
+        version: link:../popover
+      '@ryan-rn-primitives/portal':
+        specifier: workspace:*
+        version: link:../portal
+      '@ryan-rn-primitives/progress':
+        specifier: workspace:*
+        version: link:../progress
+      '@ryan-rn-primitives/radio-group':
+        specifier: workspace:*
+        version: link:../radio-group
+      '@ryan-rn-primitives/select':
+        specifier: workspace:*
+        version: link:../select
+      '@ryan-rn-primitives/separator':
+        specifier: workspace:*
+        version: link:../separator
+      '@ryan-rn-primitives/slider':
+        specifier: workspace:*
+        version: link:../slider
+      '@ryan-rn-primitives/slot':
+        specifier: workspace:*
+        version: link:../slot
+      '@ryan-rn-primitives/switch':
+        specifier: workspace:*
+        version: link:../switch
+      '@ryan-rn-primitives/table':
+        specifier: workspace:*
+        version: link:../table
+      '@ryan-rn-primitives/tabs':
+        specifier: workspace:*
+        version: link:../tabs
+      '@ryan-rn-primitives/toast':
+        specifier: workspace:*
+        version: link:../toast
+      '@ryan-rn-primitives/toggle':
+        specifier: workspace:*
+        version: link:../toggle
+      '@ryan-rn-primitives/toggle-group':
+        specifier: workspace:*
+        version: link:../toggle-group
+      '@ryan-rn-primitives/toolbar':
+        specifier: workspace:*
+        version: link:../toolbar
+      '@ryan-rn-primitives/tooltip':
+        specifier: workspace:*
+        version: link:../tooltip
+      '@ryan-rn-primitives/types':
+        specifier: workspace:*
+        version: link:../types
+      '@ryan-rn-primitives/utils':
+        specifier: workspace:*
+        version: link:../utils
       react-native-web:
         specifier: '*'
         version: 0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -635,23 +753,23 @@ importers:
 
   packages/select:
     dependencies:
-      '@dino-rn-primitives/hooks':
-        specifier: workspace:*
-        version: link:../hooks
-      '@dino-rn-primitives/slot':
-        specifier: workspace:*
-        version: link:../slot
-      '@dino-rn-primitives/types':
-        specifier: workspace:*
-        version: link:../types
       '@radix-ui/react-select':
         specifier: ^2.2.5
         version: 2.2.5(@types/react-dom@19.1.5(@types/react@19.0.14))(@types/react@19.0.14)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@ryan-rn-primitives/hooks':
+        specifier: workspace:*
+        version: link:../hooks
+      '@ryan-rn-primitives/slot':
+        specifier: workspace:*
+        version: link:../slot
+      '@ryan-rn-primitives/types':
+        specifier: workspace:*
+        version: link:../types
       react-native-web:
         specifier: '*'
         version: 0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
     devDependencies:
-      '@dino-rn-primitives/portal':
+      '@ryan-rn-primitives/portal':
         specifier: workspace:*
         version: link:../portal
       '@tsconfig/react-native':
@@ -672,15 +790,15 @@ importers:
 
   packages/separator:
     dependencies:
-      '@dino-rn-primitives/slot':
-        specifier: workspace:*
-        version: link:../slot
-      '@dino-rn-primitives/types':
-        specifier: workspace:*
-        version: link:../types
       '@radix-ui/react-separator':
         specifier: ^1.1.7
         version: 1.1.7(@types/react-dom@19.1.5(@types/react@19.0.14))(@types/react@19.0.14)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@ryan-rn-primitives/slot':
+        specifier: workspace:*
+        version: link:../slot
+      '@ryan-rn-primitives/types':
+        specifier: workspace:*
+        version: link:../types
       react-native-web:
         specifier: '*'
         version: 0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -703,15 +821,15 @@ importers:
 
   packages/slider:
     dependencies:
-      '@dino-rn-primitives/slot':
-        specifier: workspace:*
-        version: link:../slot
-      '@dino-rn-primitives/types':
-        specifier: workspace:*
-        version: link:../types
       '@radix-ui/react-slider':
         specifier: ^1.3.5
         version: 1.3.5(@types/react-dom@19.1.5(@types/react@19.0.14))(@types/react@19.0.14)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@ryan-rn-primitives/slot':
+        specifier: workspace:*
+        version: link:../slot
+      '@ryan-rn-primitives/types':
+        specifier: workspace:*
+        version: link:../types
       react-native-web:
         specifier: '*'
         version: 0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -756,15 +874,15 @@ importers:
 
   packages/switch:
     dependencies:
-      '@dino-rn-primitives/slot':
-        specifier: workspace:*
-        version: link:../slot
-      '@dino-rn-primitives/types':
-        specifier: workspace:*
-        version: link:../types
       '@radix-ui/react-switch':
         specifier: ^1.2.5
         version: 1.2.5(@types/react-dom@19.1.5(@types/react@19.0.14))(@types/react@19.0.14)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@ryan-rn-primitives/slot':
+        specifier: workspace:*
+        version: link:../slot
+      '@ryan-rn-primitives/types':
+        specifier: workspace:*
+        version: link:../types
       react-native-web:
         specifier: '*'
         version: 0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -787,10 +905,10 @@ importers:
 
   packages/table:
     dependencies:
-      '@dino-rn-primitives/slot':
+      '@ryan-rn-primitives/slot':
         specifier: workspace:*
         version: link:../slot
-      '@dino-rn-primitives/types':
+      '@ryan-rn-primitives/types':
         specifier: workspace:*
         version: link:../types
       react-native-web:
@@ -815,15 +933,15 @@ importers:
 
   packages/tabs:
     dependencies:
-      '@dino-rn-primitives/slot':
-        specifier: workspace:*
-        version: link:../slot
-      '@dino-rn-primitives/types':
-        specifier: workspace:*
-        version: link:../types
       '@radix-ui/react-tabs':
         specifier: ^1.1.12
         version: 1.1.12(@types/react-dom@19.1.5(@types/react@19.0.14))(@types/react@19.0.14)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@ryan-rn-primitives/slot':
+        specifier: workspace:*
+        version: link:../slot
+      '@ryan-rn-primitives/types':
+        specifier: workspace:*
+        version: link:../types
       react-native-web:
         specifier: '*'
         version: 0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -846,10 +964,10 @@ importers:
 
   packages/toast:
     dependencies:
-      '@dino-rn-primitives/slot':
+      '@ryan-rn-primitives/slot':
         specifier: workspace:*
         version: link:../slot
-      '@dino-rn-primitives/types':
+      '@ryan-rn-primitives/types':
         specifier: workspace:*
         version: link:../types
       react-native-web:
@@ -874,15 +992,15 @@ importers:
 
   packages/toggle:
     dependencies:
-      '@dino-rn-primitives/slot':
-        specifier: workspace:*
-        version: link:../slot
-      '@dino-rn-primitives/types':
-        specifier: workspace:*
-        version: link:../types
       '@radix-ui/react-toggle':
         specifier: ^1.1.9
         version: 1.1.9(@types/react-dom@19.1.5(@types/react@19.0.14))(@types/react@19.0.14)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@ryan-rn-primitives/slot':
+        specifier: workspace:*
+        version: link:../slot
+      '@ryan-rn-primitives/types':
+        specifier: workspace:*
+        version: link:../types
       react-native-web:
         specifier: '*'
         version: 0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -905,18 +1023,18 @@ importers:
 
   packages/toggle-group:
     dependencies:
-      '@dino-rn-primitives/slot':
-        specifier: workspace:*
-        version: link:../slot
-      '@dino-rn-primitives/types':
-        specifier: workspace:*
-        version: link:../types
-      '@dino-rn-primitives/utils':
-        specifier: workspace:*
-        version: link:../utils
       '@radix-ui/react-toggle-group':
         specifier: ^1.1.10
         version: 1.1.10(@types/react-dom@19.1.5(@types/react@19.0.14))(@types/react@19.0.14)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@ryan-rn-primitives/slot':
+        specifier: workspace:*
+        version: link:../slot
+      '@ryan-rn-primitives/types':
+        specifier: workspace:*
+        version: link:../types
+      '@ryan-rn-primitives/utils':
+        specifier: workspace:*
+        version: link:../utils
       react-native-web:
         specifier: '*'
         version: 0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -939,18 +1057,18 @@ importers:
 
   packages/toolbar:
     dependencies:
-      '@dino-rn-primitives/slot':
-        specifier: workspace:*
-        version: link:../slot
-      '@dino-rn-primitives/types':
-        specifier: workspace:*
-        version: link:../types
-      '@dino-rn-primitives/utils':
-        specifier: workspace:*
-        version: link:../utils
       '@radix-ui/react-toolbar':
         specifier: ^1.1.10
         version: 1.1.10(@types/react-dom@19.1.5(@types/react@19.0.14))(@types/react@19.0.14)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@ryan-rn-primitives/slot':
+        specifier: workspace:*
+        version: link:../slot
+      '@ryan-rn-primitives/types':
+        specifier: workspace:*
+        version: link:../types
+      '@ryan-rn-primitives/utils':
+        specifier: workspace:*
+        version: link:../utils
       react-native-web:
         specifier: '*'
         version: 0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -973,23 +1091,23 @@ importers:
 
   packages/tooltip:
     dependencies:
-      '@dino-rn-primitives/hooks':
-        specifier: workspace:*
-        version: link:../hooks
-      '@dino-rn-primitives/slot':
-        specifier: workspace:*
-        version: link:../slot
-      '@dino-rn-primitives/types':
-        specifier: workspace:*
-        version: link:../types
       '@radix-ui/react-tooltip':
         specifier: ^1.2.7
         version: 1.2.7(@types/react-dom@19.1.5(@types/react@19.0.14))(@types/react@19.0.14)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@ryan-rn-primitives/hooks':
+        specifier: workspace:*
+        version: link:../hooks
+      '@ryan-rn-primitives/slot':
+        specifier: workspace:*
+        version: link:../slot
+      '@ryan-rn-primitives/types':
+        specifier: workspace:*
+        version: link:../types
       react-native-web:
         specifier: '*'
         version: 0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
     devDependencies:
-      '@dino-rn-primitives/portal':
+      '@ryan-rn-primitives/portal':
         specifier: workspace:*
         version: link:../portal
       '@tsconfig/react-native':

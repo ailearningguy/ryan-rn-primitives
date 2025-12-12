@@ -1,5 +1,5 @@
 {
-  "name": "@dino-rn-primitives/toggle-group",
+  "name": "@ryan-rn-primitives/toggle-group",
   "version": "1.2.0",
   "description": "Primitive toggle group",
   "license": "MIT",
@@ -33,9 +33,9 @@
   },
   "dependencies": {
     "@radix-ui/react-toggle-group": "^1.1.10",
-    "@dino-rn-primitives/utils": "workspace:*",
-    "@dino-rn-primitives/slot": "workspace:*",
-    "@dino-rn-primitives/types": "workspace:*"
+    "@ryan-rn-primitives/utils": "workspace:*",
+    "@ryan-rn-primitives/slot": "workspace:*",
+    "@ryan-rn-primitives/types": "workspace:*"
   },
   "devDependencies": {
     "@tsconfig/react-native": "^1.0.1",

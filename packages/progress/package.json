@@ -1,5 +1,5 @@
 {
-  "name": "@dino-rn-primitives/progress",
+  "name": "@ryan-rn-primitives/progress",
   "version": "1.2.0",
   "description": "Primitive progress",
   "license": "MIT",
@@ -33,8 +33,8 @@
   },
   "dependencies": {
     "@radix-ui/react-progress": "^1.1.7",
-    "@dino-rn-primitives/slot": "workspace:*",
-    "@dino-rn-primitives/types": "workspace:*"
+    "@ryan-rn-primitives/slot": "workspace:*",
+    "@ryan-rn-primitives/types": "workspace:*"
   },
   "devDependencies": {
     "@tsconfig/react-native": "^1.0.1",

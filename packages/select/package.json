@@ -1,5 +1,5 @@
 {
-  "name": "@dino-rn-primitives/select",
+  "name": "@ryan-rn-primitives/select",
   "version": "1.2.0",
   "description": "Primitive select",
   "license": "MIT",
@@ -33,9 +33,9 @@
   },
   "dependencies": {
     "@radix-ui/react-select": "^2.2.5",
-    "@dino-rn-primitives/hooks": "workspace:*",
-    "@dino-rn-primitives/slot": "workspace:*",
-    "@dino-rn-primitives/types": "workspace:*"
+    "@ryan-rn-primitives/hooks": "workspace:*",
+    "@ryan-rn-primitives/slot": "workspace:*",
+    "@ryan-rn-primitives/types": "workspace:*"
   },
   "devDependencies": {
     "@tsconfig/react-native": "^1.0.1",
@@ -43,13 +43,13 @@
     "react": "19.0.0",
     "react-native": "0.79.2",
     "tsup": "^8.1.0",
-    "@dino-rn-primitives/portal": "workspace:*"
+    "@ryan-rn-primitives/portal": "workspace:*"
   },
   "peerDependencies": {
     "react": "*",
     "react-native": "*",
     "react-native-web": "*",
-    "@dino-rn-primitives/portal": "*"
+    "@ryan-rn-primitives/portal": "*"
   },
   "peerDependenciesMeta": {
     "react-native": {

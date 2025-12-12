@@ -1,4 +1,4 @@
-import type { SlottableViewProps, ViewRef } from '@dino-rn-primitives/types';
+import type { SlottableViewProps, ViewRef } from '@ryan-rn-primitives/types';
 
 type RootProps = SlottableViewProps & {
   orientation?: 'horizontal' | 'vertical';

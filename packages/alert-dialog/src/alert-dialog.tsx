@@ -1,6 +1,6 @@
-import { useControllableState } from '@dino-rn-primitives/hooks';
-import { Portal as RNPPortal } from '@dino-rn-primitives/portal';
-import * as Slot from '@dino-rn-primitives/slot';
+import { useControllableState } from '@ryan-rn-primitives/hooks';
+import { Portal as RNPPortal } from '@ryan-rn-primitives/portal';
+import * as Slot from '@ryan-rn-primitives/slot';
 import * as React from 'react';
 import { BackHandler, Pressable, Text, View, type GestureResponderEvent } from 'react-native';
 import type {

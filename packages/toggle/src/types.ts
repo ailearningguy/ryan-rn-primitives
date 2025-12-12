@@ -1,4 +1,4 @@
-import type { PressableRef, SlottablePressableProps } from '@dino-rn-primitives/types';
+import type { PressableRef, SlottablePressableProps } from '@ryan-rn-primitives/types';
 
 type RootProps = SlottablePressableProps & {
   pressed: boolean;

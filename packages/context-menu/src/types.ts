@@ -7,7 +7,7 @@ import {
   SlottableViewProps,
   TextRef,
   ViewRef,
-} from '@dino-rn-primitives/types';
+} from '@ryan-rn-primitives/types';
 
 type RootProps = SlottableViewProps & {
   onOpenChange?: (open: boolean) => void;

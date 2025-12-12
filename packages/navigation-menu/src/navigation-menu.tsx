@@ -1,6 +1,6 @@
-import { useRelativePosition, type LayoutPosition } from '@dino-rn-primitives/hooks';
-import { Portal as RNPPortal } from '@dino-rn-primitives/portal';
-import * as Slot from '@dino-rn-primitives/slot';
+import { useRelativePosition, type LayoutPosition } from '@ryan-rn-primitives/hooks';
+import { Portal as RNPPortal } from '@ryan-rn-primitives/portal';
+import * as Slot from '@ryan-rn-primitives/slot';
 import * as React from 'react';
 import {
   BackHandler,

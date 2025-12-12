@@ -1,5 +1,5 @@
-import { useIsomorphicLayoutEffect } from '@dino-rn-primitives/hooks';
-import * as Slot from '@dino-rn-primitives/slot';
+import { useIsomorphicLayoutEffect } from '@ryan-rn-primitives/hooks';
+import * as Slot from '@ryan-rn-primitives/slot';
 import * as React from 'react';
 import {
   type ImageErrorEventData,

@@ -1,5 +1,5 @@
 {
-  "name": "@dino-rn-primitives/avatar",
+  "name": "@ryan-rn-primitives/avatar",
   "version": "1.2.0",
   "description": "Primitive avatar",
   "license": "MIT",
@@ -32,9 +32,9 @@
     "pub:release": "pnpm publish --access public"
   },
   "dependencies": {
-    "@dino-rn-primitives/hooks": "workspace:*",
-    "@dino-rn-primitives/slot": "workspace:*",
-    "@dino-rn-primitives/types": "workspace:*"
+    "@ryan-rn-primitives/hooks": "workspace:*",
+    "@ryan-rn-primitives/slot": "workspace:*",
+    "@ryan-rn-primitives/types": "workspace:*"
   },
   "devDependencies": {
     "@tsconfig/react-native": "^1.0.1",

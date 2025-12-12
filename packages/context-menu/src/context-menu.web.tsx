@@ -3,9 +3,9 @@ import {
   useAugmentedRef,
   useControllableState,
   useIsomorphicLayoutEffect,
-} from '@dino-rn-primitives/hooks';
-import * as Slot from '@dino-rn-primitives/slot';
-import { EmptyGestureResponderEvent } from '@dino-rn-primitives/utils';
+} from '@ryan-rn-primitives/hooks';
+import * as Slot from '@ryan-rn-primitives/slot';
+import { EmptyGestureResponderEvent } from '@ryan-rn-primitives/utils';
 import * as React from 'react';
 import { GestureResponderEvent, Pressable, Text, View } from 'react-native';
 import type {

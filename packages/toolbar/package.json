@@ -1,5 +1,5 @@
 {
-  "name": "@dino-rn-primitives/toolbar",
+  "name": "@ryan-rn-primitives/toolbar",
   "version": "1.2.0",
   "description": "Primitive toolbar",
   "license": "MIT",
@@ -33,9 +33,9 @@
   },
   "dependencies": {
     "@radix-ui/react-toolbar": "^1.1.10",
-    "@dino-rn-primitives/slot": "workspace:*",
-    "@dino-rn-primitives/types": "workspace:*",
-    "@dino-rn-primitives/utils": "workspace:*"
+    "@ryan-rn-primitives/slot": "workspace:*",
+    "@ryan-rn-primitives/types": "workspace:*",
+    "@ryan-rn-primitives/utils": "workspace:*"
   },
   "devDependencies": {
     "@tsconfig/react-native": "^1.0.1",

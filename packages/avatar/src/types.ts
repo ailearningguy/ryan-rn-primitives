@@ -1,4 +1,4 @@
-import type { ComponentPropsWithAsChild, SlottableViewProps, ViewRef } from '@dino-rn-primitives/types';
+import type { ComponentPropsWithAsChild, SlottableViewProps, ViewRef } from '@ryan-rn-primitives/types';
 import type { Image } from 'react-native';
 
 type RootProps = SlottableViewProps & {

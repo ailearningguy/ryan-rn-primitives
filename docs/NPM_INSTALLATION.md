@@ -52,10 +52,10 @@ pnpm publish-all:primitives:next
 
 ```bash
 # Xem package trên npm
-npm view @dino-rn-primitives/accordion
+npm view @ryan-rn-primitives/accordion
 
 # Xem tất cả versions
-npm view @dino-rn-primitives/accordion versions
+npm view @ryan-rn-primitives/accordion versions
 ```
 
 ---
@@ -73,32 +73,32 @@ cd /path/to/your-ui-kit
 
 ```bash
 # Với npm
-npm install @dino-rn-primitives/accordion
+npm install @ryan-rn-primitives/accordion
 
 # Với yarn
-yarn add @dino-rn-primitives/accordion
+yarn add @ryan-rn-primitives/accordion
 
 # Với pnpm
-pnpm add @dino-rn-primitives/accordion
+pnpm add @ryan-rn-primitives/accordion
 ```
 
 ### Cài Đặt Nhiều Primitives
 
 ```bash
 # Install nhiều packages cùng lúc
-npm install @dino-rn-primitives/accordion \
-            @dino-rn-primitives/button \
-            @dino-rn-primitives/dialog \
-            @dino-rn-primitives/tabs
+npm install @ryan-rn-primitives/accordion \
+            @ryan-rn-primitives/button \
+            @ryan-rn-primitives/dialog \
+            @ryan-rn-primitives/tabs
 ```
 
 ### Cài Đặt Shared Packages
 
 ```bash
 # Thường bạn cần các shared packages
-npm install @dino-rn-primitives/hooks \
-            @dino-rn-primitives/slot \
-            @dino-rn-primitives/types
+npm install @ryan-rn-primitives/hooks \
+            @ryan-rn-primitives/slot \
+            @ryan-rn-primitives/types
 ```
 
 ---
@@ -110,7 +110,7 @@ npm install @dino-rn-primitives/hooks \
 ```typescript
 // src/components/MyAccordion.tsx
 import * as React from 'react';
-import { Root, Item, Header, Trigger, Content } from '@dino-rn-primitives/accordion';
+import { Root, Item, Header, Trigger, Content } from '@ryan-rn-primitives/accordion';
 import { Text, View, StyleSheet } from 'react-native';
 
 export function MyAccordion() {
@@ -145,7 +145,7 @@ const styles = StyleSheet.create({
 
 ```typescript
 // src/components/ui/Accordion.tsx
-import * as AccordionPrimitive from '@dino-rn-primitives/accordion';
+import * as AccordionPrimitive from '@ryan-rn-primitives/accordion';
 import { styled } from 'your-styling-library';
 
 export const Accordion = AccordionPrimitive.Root;
@@ -195,14 +195,14 @@ export { Dialog, DialogTrigger, DialogContent } from './components/ui/Dialog';
   "name": "your-ui-kit",
   "version": "1.0.0",
   "dependencies": {
-    "@dino-rn-primitives/accordion": "^1.2.0",
-    "@dino-rn-primitives/alert-dialog": "^1.2.0",
-    "@dino-rn-primitives/avatar": "^1.2.0",
-    "@dino-rn-primitives/checkbox": "^1.2.0",
-    "@dino-rn-primitives/dialog": "^1.2.0",
-    "@dino-rn-primitives/hooks": "^1.3.0",
-    "@dino-rn-primitives/slot": "^1.2.0",
-    "@dino-rn-primitives/types": "^1.2.0",
+    "@ryan-rn-primitives/accordion": "^1.2.0",
+    "@ryan-rn-primitives/alert-dialog": "^1.2.0",
+    "@ryan-rn-primitives/avatar": "^1.2.0",
+    "@ryan-rn-primitives/checkbox": "^1.2.0",
+    "@ryan-rn-primitives/dialog": "^1.2.0",
+    "@ryan-rn-primitives/hooks": "^1.3.0",
+    "@ryan-rn-primitives/slot": "^1.2.0",
+    "@ryan-rn-primitives/types": "^1.2.0",
     "react": "^18.0.0",
     "react-native": "^0.72.0"
   }
@@ -232,7 +232,7 @@ export { Dialog, DialogTrigger, DialogContent } from './components/ui/Dialog';
 // src/components/Button.tsx
 import * as React from 'react';
 import { Pressable, Text, StyleSheet } from 'react-native';
-import * as Slot from '@dino-rn-primitives/slot';
+import * as Slot from '@ryan-rn-primitives/slot';
 
 interface ButtonProps {
   variant?: 'default' | 'outline' | 'ghost';
@@ -308,13 +308,13 @@ pnpm outdated
 
 ```bash
 # Update một package
-npm update @dino-rn-primitives/accordion
+npm update @ryan-rn-primitives/accordion
 
-# Update tất cả @dino-rn-primitives packages
-npm update @dino-rn-primitives/*
+# Update tất cả @ryan-rn-primitives packages
+npm update @ryan-rn-primitives/*
 
 # Hoặc install version cụ thể
-npm install @dino-rn-primitives/accordion@1.3.0
+npm install @ryan-rn-primitives/accordion@1.3.0
 ```
 
 ---
@@ -348,7 +348,7 @@ npm publish
 - [ ] Build primitives: `pnpm build`
 - [ ] Publish primitives: `pnpm publish-all:primitives`
 - [ ] Tạo UI kit project
-- [ ] Install primitives: `npm install @dino-rn-primitives/...`
+- [ ] Install primitives: `npm install @ryan-rn-primitives/...`
 - [ ] Import và sử dụng trong code
 - [ ] Tạo styled components
 - [ ] Re-export trong UI kit
@@ -364,7 +364,7 @@ npm publish
 
 ```bash
 # Kiểm tra package có tồn tại trên npm
-npm view @dino-rn-primitives/accordion
+npm view @ryan-rn-primitives/accordion
 
 # Nếu không có, publish lại
 cd packages/accordion
@@ -440,7 +440,7 @@ test('accordion renders', () => {
 
 This UI kit is built on top of:
 
-- [@dino-rn-primitives](https://www.npmjs.com/org/rn-primitives) - Unstyled primitives
+- [@ryan-rn-primitives](https://www.npmjs.com/org/rn-primitives) - Unstyled primitives
 - React Native 0.72+
 - React 18+
 ```

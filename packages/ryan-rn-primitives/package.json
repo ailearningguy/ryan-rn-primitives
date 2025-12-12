@@ -1,0 +1,99 @@
+{
+  "name": "@ryan-rn-primitives",
+  "version": "1.0.0",
+  "description": "Meta package that includes all Ryan RN Primitives - unstyled, accessible React Native components",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "clean": "rm -rf dist",
+    "pub:beta": "pnpm publish --no-git-checks --access public --tag beta",
+    "pub:next": "pnpm publish --no-git-checks --access public --tag next",
+    "pub:release": "pnpm publish --access public"
+  },
+  "dependencies": {
+    "@ryan-rn-primitives/accordion": "workspace:*",
+    "@ryan-rn-primitives/alert-dialog": "workspace:*",
+    "@ryan-rn-primitives/aspect-ratio": "workspace:*",
+    "@ryan-rn-primitives/avatar": "workspace:*",
+    "@ryan-rn-primitives/checkbox": "workspace:*",
+    "@ryan-rn-primitives/collapsible": "workspace:*",
+    "@ryan-rn-primitives/context-menu": "workspace:*",
+    "@ryan-rn-primitives/dialog": "workspace:*",
+    "@ryan-rn-primitives/dropdown-menu": "workspace:*",
+    "@ryan-rn-primitives/hooks": "workspace:*",
+    "@ryan-rn-primitives/hover-card": "workspace:*",
+    "@ryan-rn-primitives/label": "workspace:*",
+    "@ryan-rn-primitives/menubar": "workspace:*",
+    "@ryan-rn-primitives/navigation-menu": "workspace:*",
+    "@ryan-rn-primitives/popover": "workspace:*",
+    "@ryan-rn-primitives/portal": "workspace:*",
+    "@ryan-rn-primitives/progress": "workspace:*",
+    "@ryan-rn-primitives/radio-group": "workspace:*",
+    "@ryan-rn-primitives/select": "workspace:*",
+    "@ryan-rn-primitives/separator": "workspace:*",
+    "@ryan-rn-primitives/slider": "workspace:*",
+    "@ryan-rn-primitives/slot": "workspace:*",
+    "@ryan-rn-primitives/switch": "workspace:*",
+    "@ryan-rn-primitives/table": "workspace:*",
+    "@ryan-rn-primitives/tabs": "workspace:*",
+    "@ryan-rn-primitives/toast": "workspace:*",
+    "@ryan-rn-primitives/toggle": "workspace:*",
+    "@ryan-rn-primitives/toggle-group": "workspace:*",
+    "@ryan-rn-primitives/toolbar": "workspace:*",
+    "@ryan-rn-primitives/tooltip": "workspace:*",
+    "@ryan-rn-primitives/types": "workspace:*",
+    "@ryan-rn-primitives/utils": "workspace:*"
+  },
+  "devDependencies": {
+    "@tsconfig/react-native": "^1.0.1",
+    "@types/react": "~19.0.14",
+    "react": "19.0.0",
+    "react-native": "0.79.2",
+    "tsup": "^8.1.0"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-web": "*"
+  },
+  "peerDependenciesMeta": {
+    "react-native": {
+      "optional": true
+    },
+    "react-native-web": {
+      "optional": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ailearningguy/ryan-rn-primitives.git",
+    "directory": "packages/ryan-rn-primitives"
+  },
+  "author": "dino <ailearningguy@gmail.com>",
+  "keywords": [
+    "react-native",
+    "primitives",
+    "ui-components",
+    "accessible",
+    "unstyled",
+    "headless"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

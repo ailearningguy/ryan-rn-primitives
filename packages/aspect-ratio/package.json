@@ -1,5 +1,5 @@
 {
-  "name": "@dino-rn-primitives/aspect-ratio",
+  "name": "@ryan-rn-primitives/aspect-ratio",
   "version": "1.2.0",
   "description": "Primitive aspect ratio",
   "license": "MIT",
@@ -32,8 +32,8 @@
     "pub:release": "pnpm publish --access public"
   },
   "dependencies": {
-    "@dino-rn-primitives/slot": "workspace:*",
-    "@dino-rn-primitives/types": "workspace:*"
+    "@ryan-rn-primitives/slot": "workspace:*",
+    "@ryan-rn-primitives/types": "workspace:*"
   },
   "devDependencies": {
     "@tsconfig/react-native": "^1.0.1",

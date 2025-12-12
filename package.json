@@ -1,5 +1,5 @@
 {
-  "name": "@dino-rn-primitives/monorepo",
+  "name": "@ryan-rn-primitives/monorepo",
   "private": true,
   "scripts": {
     "dev": "turbo dev --concurrency=34",

@@ -1,5 +1,5 @@
 {
-  "name": "@dino-rn-primitives/separator",
+  "name": "@ryan-rn-primitives/separator",
   "version": "1.2.0",
   "description": "Primitive separator",
   "license": "MIT",
@@ -33,8 +33,8 @@
   },
   "dependencies": {
     "@radix-ui/react-separator": "^1.1.7",
-    "@dino-rn-primitives/slot": "workspace:*",
-    "@dino-rn-primitives/types": "workspace:*"
+    "@ryan-rn-primitives/slot": "workspace:*",
+    "@ryan-rn-primitives/types": "workspace:*"
   },
   "devDependencies": {
     "@tsconfig/react-native": "^1.0.1",

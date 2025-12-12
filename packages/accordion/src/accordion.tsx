@@ -1,5 +1,5 @@
-import { useControllableState } from '@dino-rn-primitives/hooks';
-import * as Slot from '@dino-rn-primitives/slot';
+import { useControllableState } from '@ryan-rn-primitives/hooks';
+import * as Slot from '@ryan-rn-primitives/slot';
 import * as React from 'react';
 import { Pressable, View, type GestureResponderEvent } from 'react-native';
 import type {

@@ -5,7 +5,7 @@ import type {
   SlottablePressableProps,
   SlottableViewProps,
   ViewRef,
-} from '@dino-rn-primitives/types';
+} from '@ryan-rn-primitives/types';
 
 type RootProps = SlottableViewProps & { onOpenChange?: (open: boolean) => void };
 interface PortalProps extends ForceMountable {

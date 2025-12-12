@@ -1,5 +1,5 @@
-import * as Slot from '@dino-rn-primitives/slot';
-import type { SlottableViewProps, ViewRef } from '@dino-rn-primitives/types';
+import * as Slot from '@ryan-rn-primitives/slot';
+import type { SlottableViewProps, ViewRef } from '@ryan-rn-primitives/types';
 import * as React from 'react';
 import { View, type ViewStyle } from 'react-native';
 

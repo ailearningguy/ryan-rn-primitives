@@ -25,19 +25,19 @@ pnpm publish-all:primitives
 cd /path/to/your-ui-kit
 
 # Install primitives bạn cần
-npm install @dino-rn-primitives/accordion \
-            @dino-rn-primitives/dialog \
-            @dino-rn-primitives/tabs \
-            @dino-rn-primitives/hooks \
-            @dino-rn-primitives/slot \
-            @dino-rn-primitives/types
+npm install @ryan-rn-primitives/accordion \
+            @ryan-rn-primitives/dialog \
+            @ryan-rn-primitives/tabs \
+            @ryan-rn-primitives/hooks \
+            @ryan-rn-primitives/slot \
+            @ryan-rn-primitives/types
 ```
 
 ### Bước 3: Sử Dụng
 
 ```typescript
 // src/components/MyAccordion.tsx
-import { Root, Item, Header, Trigger, Content } from '@dino-rn-primitives/accordion';
+import { Root, Item, Header, Trigger, Content } from '@ryan-rn-primitives/accordion';
 import { Text, StyleSheet } from 'react-native';
 
 export function MyAccordion() {
@@ -70,43 +70,43 @@ const styles = StyleSheet.create({
 ### Core Primitives (27)
 
 ```bash
-npm install @dino-rn-primitives/accordion
-npm install @dino-rn-primitives/alert-dialog
-npm install @dino-rn-primitives/aspect-ratio
-npm install @dino-rn-primitives/avatar
-npm install @dino-rn-primitives/checkbox
-npm install @dino-rn-primitives/collapsible
-npm install @dino-rn-primitives/context-menu
-npm install @dino-rn-primitives/dialog
-npm install @dino-rn-primitives/dropdown-menu
-npm install @dino-rn-primitives/hover-card
-npm install @dino-rn-primitives/label
-npm install @dino-rn-primitives/menubar
-npm install @dino-rn-primitives/navigation-menu
-npm install @dino-rn-primitives/popover
-npm install @dino-rn-primitives/progress
-npm install @dino-rn-primitives/radio-group
-npm install @dino-rn-primitives/select
-npm install @dino-rn-primitives/separator
-npm install @dino-rn-primitives/slider
-npm install @dino-rn-primitives/switch
-npm install @dino-rn-primitives/table
-npm install @dino-rn-primitives/tabs
-npm install @dino-rn-primitives/toast
-npm install @dino-rn-primitives/toggle
-npm install @dino-rn-primitives/toggle-group
-npm install @dino-rn-primitives/toolbar
-npm install @dino-rn-primitives/tooltip
+npm install @ryan-rn-primitives/accordion
+npm install @ryan-rn-primitives/alert-dialog
+npm install @ryan-rn-primitives/aspect-ratio
+npm install @ryan-rn-primitives/avatar
+npm install @ryan-rn-primitives/checkbox
+npm install @ryan-rn-primitives/collapsible
+npm install @ryan-rn-primitives/context-menu
+npm install @ryan-rn-primitives/dialog
+npm install @ryan-rn-primitives/dropdown-menu
+npm install @ryan-rn-primitives/hover-card
+npm install @ryan-rn-primitives/label
+npm install @ryan-rn-primitives/menubar
+npm install @ryan-rn-primitives/navigation-menu
+npm install @ryan-rn-primitives/popover
+npm install @ryan-rn-primitives/progress
+npm install @ryan-rn-primitives/radio-group
+npm install @ryan-rn-primitives/select
+npm install @ryan-rn-primitives/separator
+npm install @ryan-rn-primitives/slider
+npm install @ryan-rn-primitives/switch
+npm install @ryan-rn-primitives/table
+npm install @ryan-rn-primitives/tabs
+npm install @ryan-rn-primitives/toast
+npm install @ryan-rn-primitives/toggle
+npm install @ryan-rn-primitives/toggle-group
+npm install @ryan-rn-primitives/toolbar
+npm install @ryan-rn-primitives/tooltip
 ```
 
 ### Shared Packages (5)
 
 ```bash
-npm install @dino-rn-primitives/hooks
-npm install @dino-rn-primitives/portal
-npm install @dino-rn-primitives/slot
-npm install @dino-rn-primitives/types
-npm install @dino-rn-primitives/utils
+npm install @ryan-rn-primitives/hooks
+npm install @ryan-rn-primitives/portal
+npm install @ryan-rn-primitives/slot
+npm install @ryan-rn-primitives/types
+npm install @ryan-rn-primitives/utils
 ```
 
 ---
@@ -115,38 +115,38 @@ npm install @dino-rn-primitives/utils
 
 ```bash
 npm install \
-  @dino-rn-primitives/accordion \
-  @dino-rn-primitives/alert-dialog \
-  @dino-rn-primitives/aspect-ratio \
-  @dino-rn-primitives/avatar \
-  @dino-rn-primitives/checkbox \
-  @dino-rn-primitives/collapsible \
-  @dino-rn-primitives/context-menu \
-  @dino-rn-primitives/dialog \
-  @dino-rn-primitives/dropdown-menu \
-  @dino-rn-primitives/hover-card \
-  @dino-rn-primitives/label \
-  @dino-rn-primitives/menubar \
-  @dino-rn-primitives/navigation-menu \
-  @dino-rn-primitives/popover \
-  @dino-rn-primitives/progress \
-  @dino-rn-primitives/radio-group \
-  @dino-rn-primitives/select \
-  @dino-rn-primitives/separator \
-  @dino-rn-primitives/slider \
-  @dino-rn-primitives/switch \
-  @dino-rn-primitives/table \
-  @dino-rn-primitives/tabs \
-  @dino-rn-primitives/toast \
-  @dino-rn-primitives/toggle \
-  @dino-rn-primitives/toggle-group \
-  @dino-rn-primitives/toolbar \
-  @dino-rn-primitives/tooltip \
-  @dino-rn-primitives/hooks \
-  @dino-rn-primitives/portal \
-  @dino-rn-primitives/slot \
-  @dino-rn-primitives/types \
-  @dino-rn-primitives/utils
+  @ryan-rn-primitives/accordion \
+  @ryan-rn-primitives/alert-dialog \
+  @ryan-rn-primitives/aspect-ratio \
+  @ryan-rn-primitives/avatar \
+  @ryan-rn-primitives/checkbox \
+  @ryan-rn-primitives/collapsible \
+  @ryan-rn-primitives/context-menu \
+  @ryan-rn-primitives/dialog \
+  @ryan-rn-primitives/dropdown-menu \
+  @ryan-rn-primitives/hover-card \
+  @ryan-rn-primitives/label \
+  @ryan-rn-primitives/menubar \
+  @ryan-rn-primitives/navigation-menu \
+  @ryan-rn-primitives/popover \
+  @ryan-rn-primitives/progress \
+  @ryan-rn-primitives/radio-group \
+  @ryan-rn-primitives/select \
+  @ryan-rn-primitives/separator \
+  @ryan-rn-primitives/slider \
+  @ryan-rn-primitives/switch \
+  @ryan-rn-primitives/table \
+  @ryan-rn-primitives/tabs \
+  @ryan-rn-primitives/toast \
+  @ryan-rn-primitives/toggle \
+  @ryan-rn-primitives/toggle-group \
+  @ryan-rn-primitives/toolbar \
+  @ryan-rn-primitives/tooltip \
+  @ryan-rn-primitives/hooks \
+  @ryan-rn-primitives/portal \
+  @ryan-rn-primitives/slot \
+  @ryan-rn-primitives/types \
+  @ryan-rn-primitives/utils
 ```
 
 ---
@@ -155,7 +155,7 @@ npm install \
 
 ```typescript
 // your-ui-kit/src/components/Accordion.tsx
-import * as AccordionPrimitive from '@dino-rn-primitives/accordion';
+import * as AccordionPrimitive from '@ryan-rn-primitives/accordion';
 import { StyleSheet } from 'react-native';
 
 // Re-export với styles
@@ -201,13 +201,13 @@ export * from './components/Dialog';
 
 ```bash
 # Xem package đã install
-npm list @dino-rn-primitives/accordion
+npm list @ryan-rn-primitives/accordion
 
 # Xem version
-npm view @dino-rn-primitives/accordion version
+npm view @ryan-rn-primitives/accordion version
 
 # Test import
-node -e "console.log(require('@dino-rn-primitives/accordion'))"
+node -e "console.log(require('@ryan-rn-primitives/accordion'))"
 ```
 
 ---
@@ -226,7 +226,7 @@ node -e "console.log(require('@dino-rn-primitives/accordion'))"
 
 ```bash
 # Package not found
-npm view @dino-rn-primitives/accordion  # Kiểm tra đã publish chưa
+npm view @ryan-rn-primitives/accordion  # Kiểm tra đã publish chưa
 
 # Peer dependency warnings
 npm install react react-native  # Install peer deps
