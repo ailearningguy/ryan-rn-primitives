@@ -1,0 +1,12 @@
+# Example pnpm-workspace.yaml
+# Copy this to your project root
+
+packages:
+  # Include all primitives packages
+  - 'packages/ryan-rn-primitives/packages/*'
+
+  # Include your app (if using monorepo structure)
+  # - 'packages/my-app'
+
+  # Or include current directory (if primitives is subfolder)
+  - '.'

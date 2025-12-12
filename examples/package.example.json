@@ -1,0 +1,28 @@
+{
+  "name": "my-app-with-primitives",
+  "version": "1.0.0",
+  "description": "Example app using ryan-rn-primitives via workspace",
+  "main": "index.js",
+  "scripts": {
+    "dev": "expo start",
+    "build": "expo build",
+    "build:primitives": "cd packages/ryan-rn-primitives && pnpm build",
+    "dev:primitives": "cd packages/ryan-rn-primitives && pnpm dev:primitives"
+  },
+  "dependencies": {
+    "@dino-rn-primitives/accordion": "workspace:*",
+    "@dino-rn-primitives/alert-dialog": "workspace:*",
+    "@dino-rn-primitives/checkbox": "workspace:*",
+    "@dino-rn-primitives/dialog": "workspace:*",
+    "@dino-rn-primitives/hooks": "workspace:*",
+    "@dino-rn-primitives/slot": "workspace:*",
+    "@dino-rn-primitives/types": "workspace:*",
+    "expo": "~52.0.0",
+    "react": "19.0.0",
+    "react-native": "0.79.2"
+  },
+  "devDependencies": {
+    "@types/react": "~19.0.14",
+    "typescript": "^5.8.3"
+  }
+}
