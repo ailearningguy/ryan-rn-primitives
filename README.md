@@ -37,6 +37,34 @@ pnpm dev:nextjs-nativewind
 pnpm dev:docs
 ```
 
+### Creating a new primitive
+
+To quickly scaffold a new primitive with all necessary boilerplate:
+
+```bash
+pnpm create:primitive <primitive-name>
+```
+
+Example:
+
+```bash
+pnpm create:primitive button
+```
+
+This will automatically create:
+
+- Package configuration (`package.json`, `tsconfig.json`, `tsup.config.ts`)
+- Source files (`src/index.ts`, `src/types.ts`, `src/<primitive-name>.tsx`)
+- Changelog (`CHANGELOG.md`)
+
+After creating a new primitive:
+
+1. Run `pnpm install` to install dependencies
+2. Run `pnpm dev:primitives` to start development mode
+3. Edit your component in `packages/<primitive-name>/src/<primitive-name>.tsx`
+
+For more details, see [scripts/README.md](./scripts/README.md)
+
 ### Primitives
 
 #### Core
