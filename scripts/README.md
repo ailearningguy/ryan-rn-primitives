@@ -85,7 +85,7 @@ pnpm create:primitive custom-component
 
 5. **Thêm Radix UI dependency (nếu cần):**
    ```bash
-   pnpm add @radix-ui/react-<primitive-name> --filter @rn-primitives/<primitive-name>
+   pnpm add @radix-ui/react-<primitive-name> --filter @dino-rn-primitives/<primitive-name>
    ```
 
 ### Cấu trúc thư mục được tạo
@@ -107,7 +107,7 @@ packages/<primitive-name>/
 Script tạo một component cơ bản với cấu trúc sau:
 
 ```tsx
-import * as Slot from '@rn-primitives/slot';
+import * as Slot from '@dino-rn-primitives/slot';
 import * as React from 'react';
 import { View } from 'react-native';
 import type { RootProps, RootRef } from './types';
@@ -242,7 +242,7 @@ pnpm delete:primitive custom-component
 ```
 ⚠️  WARNING: You are about to delete a primitive!
 ──────────────────────────────────────────────────
-Name: @rn-primitives/button
+Name: @dino-rn-primitives/button
 Version: 0.0.1
 Description: Primitive button
 Path: /path/to/packages/button

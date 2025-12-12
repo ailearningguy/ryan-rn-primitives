@@ -47,7 +47,7 @@ function createPrimitive(primitiveName) {
   // Create package.json
   log('Creating package.json...', 'yellow');
   const packageJson = {
-    name: `@rn-primitives/${primitiveName}`,
+    name: `@dino-rn-primitives/${primitiveName}`,
     version: '0.0.1',
     description: `Primitive ${primitiveName}`,
     license: 'MIT',
@@ -78,9 +78,9 @@ function createPrimitive(primitiveName) {
       'pub:release': 'pnpm publish --access public',
     },
     dependencies: {
-      '@rn-primitives/hooks': 'workspace:*',
-      '@rn-primitives/slot': 'workspace:*',
-      '@rn-primitives/types': 'workspace:*',
+      '@dino-rn-primitives/hooks': 'workspace:*',
+      '@dino-rn-primitives/slot': 'workspace:*',
+      '@dino-rn-primitives/types': 'workspace:*',
     },
     devDependencies: {
       '@tsconfig/react-native': '^1.0.1',
@@ -164,7 +164,7 @@ export default defineConfig((options: Options) => ({
 
   // Create CHANGELOG.md
   log('Creating CHANGELOG.md...', 'yellow');
-  const changelog = `# @rn-primitives/${primitiveName}
+  const changelog = `# @dino-rn-primitives/${primitiveName}
 
 ## 0.0.1
 
@@ -185,7 +185,7 @@ export * from './types';
 
   // Create src/types.ts
   log('Creating src/types.ts...', 'yellow');
-  const typesTs = `import type { SlottableViewProps, ViewRef } from '@rn-primitives/types';
+  const typesTs = `import type { SlottableViewProps, ViewRef } from '@dino-rn-primitives/types';
 
 type RootProps = SlottableViewProps & {
   // Add your custom props here
@@ -200,7 +200,7 @@ export type { RootProps, RootRef };
 
   // Create src/${primitiveName}.tsx
   log(`Creating src/${primitiveName}.tsx...`, 'yellow');
-  const componentTsx = `import * as Slot from '@rn-primitives/slot';
+  const componentTsx = `import * as Slot from '@dino-rn-primitives/slot';
 import * as React from 'react';
 import { View } from 'react-native';
 import type { RootProps, RootRef } from './types';
@@ -236,7 +236,7 @@ export { Root };
   log('\n4. Update types if needed:');
   log(`   ${packageDir}/src/types.ts`, 'green');
   log('\nOptional: Add Radix UI dependency if needed', 'yellow');
-  log(`   pnpm add @radix-ui/react-${primitiveName} --filter @rn-primitives/${primitiveName}`);
+  log(`   pnpm add @radix-ui/react-${primitiveName} --filter @dino-rn-primitives/${primitiveName}`);
 }
 
 // Main execution

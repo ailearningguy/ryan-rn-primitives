@@ -1,5 +1,5 @@
 {
-  "name": "@rn-primitives/types",
+  "name": "@dino-rn-primitives/types",
   "version": "1.2.0",
   "description": "Primitive types",
   "license": "MIT",
@@ -44,5 +44,14 @@
     "react-native-web": {
       "optional": true
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ailearningguy/ryan-rn-primitives.git",
+    "directory": "packages/types"
+  },
+  "author": "dino <ailearningguy@gmail.com>",
+  "publishConfig": {
+    "access": "public"
   }
 }

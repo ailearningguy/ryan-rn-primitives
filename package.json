@@ -1,5 +1,5 @@
 {
-  "name": "@rn-primitives/monorepo",
+  "name": "@dino-rn-primitives/monorepo",
   "private": true,
   "scripts": {
     "dev": "turbo dev --concurrency=34",
@@ -10,6 +10,8 @@
     "create:primitive": "node scripts/create-primitive.js",
     "list:primitives": "node scripts/list-primitives.js",
     "delete:primitive": "node scripts/delete-primitive.js",
+    "verify:npm": "node scripts/verify-npm-install.js",
+    "rename:scope": "node scripts/rename-scope.js",
     "version-bump": "npx changeset && npx changeset version",
     "lint": "turbo lint",
     "test": "turbo test",
@@ -43,5 +45,14 @@
   "engines": {
     "node": ">=20.11.0"
   },
-  "packageManager": "pnpm@9.1.4"
+  "packageManager": "pnpm@9.1.4",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ailearningguy/ryan-rn-primitives.git"
+  },
+  "author": "dino <ailearningguy@gmail.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
 }

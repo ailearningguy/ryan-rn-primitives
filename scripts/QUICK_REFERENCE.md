@@ -23,7 +23,7 @@ packages/<tên-primitive>/
 ## 📝 Template Component Cơ Bản
 
 ```tsx
-import * as Slot from '@rn-primitives/slot';
+import * as Slot from '@dino-rn-primitives/slot';
 import * as React from 'react';
 import { View } from 'react-native';
 import type { RootProps, RootRef } from './types';
@@ -41,7 +41,7 @@ export { Root };
 ## 🎯 Types Template
 
 ```typescript
-import type { SlottableViewProps, ViewRef } from '@rn-primitives/types';
+import type { SlottableViewProps, ViewRef } from '@dino-rn-primitives/types';
 
 type RootProps = SlottableViewProps & {
   // Custom props
@@ -68,10 +68,10 @@ export type { RootProps, RootRef };
 
 ```bash
 # Thêm dependency cho một primitive cụ thể
-pnpm add <package> --filter @rn-primitives/<primitive-name>
+pnpm add <package> --filter @dino-rn-primitives/<primitive-name>
 
 # Ví dụ: Thêm Radix UI
-pnpm add @radix-ui/react-button --filter @rn-primitives/button
+pnpm add @radix-ui/react-button --filter @dino-rn-primitives/button
 ```
 
 ## 🎨 Component Types
@@ -79,7 +79,7 @@ pnpm add @radix-ui/react-button --filter @rn-primitives/button
 ### View-based Component
 
 ```typescript
-import type { SlottableViewProps, ViewRef } from '@rn-primitives/types';
+import type { SlottableViewProps, ViewRef } from '@dino-rn-primitives/types';
 
 type Props = SlottableViewProps & {
   /* ... */
@@ -90,7 +90,7 @@ type Ref = ViewRef;
 ### Pressable-based Component
 
 ```typescript
-import type { SlottablePressableProps, PressableRef } from '@rn-primitives/types';
+import type { SlottablePressableProps, PressableRef } from '@dino-rn-primitives/types';
 
 type Props = SlottablePressableProps & {
   /* ... */
@@ -101,7 +101,7 @@ type Ref = PressableRef;
 ### Text-based Component
 
 ```typescript
-import type { SlottableTextProps, TextRef } from '@rn-primitives/types';
+import type { SlottableTextProps, TextRef } from '@dino-rn-primitives/types';
 
 type Props = SlottableTextProps & {
   /* ... */
@@ -182,8 +182,8 @@ pnpm dev:primitives
 
 5. **Type safety**
    ```typescript
-   // Import từ @rn-primitives/types
-   import type { SlottableViewProps, ViewRef } from '@rn-primitives/types';
+   // Import từ @dino-rn-primitives/types
+   import type { SlottableViewProps, ViewRef } from '@dino-rn-primitives/types';
    ```
 
 ## 🌐 Resources

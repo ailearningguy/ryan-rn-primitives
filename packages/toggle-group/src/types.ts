@@ -3,7 +3,7 @@ import {
   SlottablePressableProps,
   SlottableViewProps,
   ViewRef,
-} from '@rn-primitives/types';
+} from '@dino-rn-primitives/types';
 
 type SingleRootProps = {
   type: 'single';

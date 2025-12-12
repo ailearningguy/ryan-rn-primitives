@@ -39,7 +39,7 @@ COMPONENT_NAME=$(echo "$PRIMITIVE_NAME" | sed -r 's/(^|-)([a-z])/\U\2/g')
 echo -e "${YELLOW}Creating package.json...${NC}"
 cat > "${PACKAGE_DIR}/package.json" << EOF
 {
-  "name": "@rn-primitives/${PRIMITIVE_NAME}",
+  "name": "@dino-rn-primitives/${PRIMITIVE_NAME}",
   "version": "0.0.1",
   "description": "Primitive ${PRIMITIVE_NAME}",
   "license": "MIT",
@@ -72,9 +72,9 @@ cat > "${PACKAGE_DIR}/package.json" << EOF
     "pub:release": "pnpm publish --access public"
   },
   "dependencies": {
-    "@rn-primitives/hooks": "workspace:*",
-    "@rn-primitives/slot": "workspace:*",
-    "@rn-primitives/types": "workspace:*"
+    "@dino-rn-primitives/hooks": "workspace:*",
+    "@dino-rn-primitives/slot": "workspace:*",
+    "@dino-rn-primitives/types": "workspace:*"
   },
   "devDependencies": {
     "@tsconfig/react-native": "^1.0.1",
@@ -154,7 +154,7 @@ EOF
 
 echo -e "${YELLOW}Creating CHANGELOG.md...${NC}"
 cat > "${PACKAGE_DIR}/CHANGELOG.md" << EOF
-# @rn-primitives/${PRIMITIVE_NAME}
+# @dino-rn-primitives/${PRIMITIVE_NAME}
 
 ## 0.0.1
 
@@ -171,7 +171,7 @@ EOF
 
 echo -e "${YELLOW}Creating src/types.ts...${NC}"
 cat > "${PACKAGE_DIR}/src/types.ts" << EOF
-import type { SlottableViewProps, ViewRef } from '@rn-primitives/types';
+import type { SlottableViewProps, ViewRef } from '@dino-rn-primitives/types';
 
 type RootProps = SlottableViewProps & {
   // Add your custom props here
@@ -184,7 +184,7 @@ EOF
 
 echo -e "${YELLOW}Creating src/${PRIMITIVE_NAME}.tsx...${NC}"
 cat > "${PACKAGE_DIR}/src/${PRIMITIVE_NAME}.tsx" << EOF
-import * as Slot from '@rn-primitives/slot';
+import * as Slot from '@dino-rn-primitives/slot';
 import * as React from 'react';
 import { View } from 'react-native';
 import type { RootProps, RootRef } from './types';
@@ -222,4 +222,4 @@ echo "4. Update types if needed:"
 echo -e "   ${GREEN}${PACKAGE_DIR}/src/types.ts${NC}"
 echo ""
 echo -e "${YELLOW}Optional: Add Radix UI dependency if needed${NC}"
-echo "   pnpm add @radix-ui/react-${PRIMITIVE_NAME} --filter @rn-primitives/${PRIMITIVE_NAME}"
+echo "   pnpm add @radix-ui/react-${PRIMITIVE_NAME} --filter @dino-rn-primitives/${PRIMITIVE_NAME}"

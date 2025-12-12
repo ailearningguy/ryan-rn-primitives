@@ -34,7 +34,7 @@ pnpm install
 Nếu bạn muốn sử dụng Radix UI cho web compatibility:
 
 ```bash
-pnpm add @radix-ui/react-slot --filter @rn-primitives/button
+pnpm add @radix-ui/react-slot --filter @dino-rn-primitives/button
 ```
 
 ## Bước 4: Cập nhật Types
@@ -42,7 +42,7 @@ pnpm add @radix-ui/react-slot --filter @rn-primitives/button
 Mở `packages/button/src/types.ts` và thêm các props cho button:
 
 ```typescript
-import type { PressableRef, SlottablePressableProps } from '@rn-primitives/types';
+import type { PressableRef, SlottablePressableProps } from '@dino-rn-primitives/types';
 
 type ButtonProps = SlottablePressableProps & {
   variant?: 'default' | 'outline' | 'ghost';
@@ -60,7 +60,7 @@ export type { ButtonProps, ButtonRef };
 Mở `packages/button/src/button.tsx` và implement:
 
 ```tsx
-import * as Slot from '@rn-primitives/slot';
+import * as Slot from '@dino-rn-primitives/slot';
 import * as React from 'react';
 import { Pressable } from 'react-native';
 import type { ButtonProps, ButtonRef } from './types';
@@ -91,7 +91,7 @@ pnpm dev:primitives
 Sử dụng primitive trong app của bạn:
 
 ```tsx
-import { Root as Button } from '@rn-primitives/button';
+import { Root as Button } from '@dino-rn-primitives/button';
 import { Text, StyleSheet } from 'react-native';
 
 export function MyComponent() {
@@ -146,7 +146,7 @@ pnpm create:primitive card
 Tạo `packages/card/src/card-header.tsx`:
 
 ```tsx
-import * as Slot from '@rn-primitives/slot';
+import * as Slot from '@dino-rn-primitives/slot';
 import * as React from 'react';
 import { View } from 'react-native';
 import type { CardHeaderProps, CardHeaderRef } from './types';
@@ -188,7 +188,7 @@ export default defineConfig((options: Options) => ({
 1. **Luôn sử dụng `asChild` pattern** để cho phép composition
 2. **Thêm accessibility props** (role, aria-\*)
 3. **Support ref forwarding** với `React.forwardRef`
-4. **Sử dụng types từ `@rn-primitives/types`** để consistency
+4. **Sử dụng types từ `@dino-rn-primitives/types`** để consistency
 5. **Test trên cả native và web** nếu có thể
 6. **Document props** trong types với JSDoc comments
 

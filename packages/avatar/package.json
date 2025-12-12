@@ -1,5 +1,5 @@
 {
-  "name": "@rn-primitives/avatar",
+  "name": "@dino-rn-primitives/avatar",
   "version": "1.2.0",
   "description": "Primitive avatar",
   "license": "MIT",
@@ -32,9 +32,9 @@
     "pub:release": "pnpm publish --access public"
   },
   "dependencies": {
-    "@rn-primitives/hooks": "workspace:*",
-    "@rn-primitives/slot": "workspace:*",
-    "@rn-primitives/types": "workspace:*"
+    "@dino-rn-primitives/hooks": "workspace:*",
+    "@dino-rn-primitives/slot": "workspace:*",
+    "@dino-rn-primitives/types": "workspace:*"
   },
   "devDependencies": {
     "@tsconfig/react-native": "^1.0.1",
@@ -55,5 +55,14 @@
     "react-native-web": {
       "optional": true
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ailearningguy/ryan-rn-primitives.git",
+    "directory": "packages/avatar"
+  },
+  "author": "dino <ailearningguy@gmail.com>",
+  "publishConfig": {
+    "access": "public"
   }
 }

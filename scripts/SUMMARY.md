@@ -162,7 +162,7 @@ packages/my-component/
 ### Component Template
 
 ```tsx
-import * as Slot from '@rn-primitives/slot';
+import * as Slot from '@dino-rn-primitives/slot';
 import * as React from 'react';
 import { View } from 'react-native';
 import type { RootProps, RootRef } from './types';
@@ -211,7 +211,7 @@ pnpm dev:primitives
 # packages/card/src/card.tsx
 
 # 6. Test trong app
-# import { Root } from '@rn-primitives/card'
+# import { Root } from '@dino-rn-primitives/card'
 
 # 7. Build
 pnpm build

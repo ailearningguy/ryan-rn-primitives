@@ -1,5 +1,5 @@
 {
-  "name": "@rn-primitives/tabs",
+  "name": "@dino-rn-primitives/tabs",
   "version": "1.2.0",
   "description": "Primitive tabs",
   "license": "MIT",
@@ -33,8 +33,8 @@
   },
   "dependencies": {
     "@radix-ui/react-tabs": "^1.1.12",
-    "@rn-primitives/slot": "workspace:*",
-    "@rn-primitives/types": "workspace:*"
+    "@dino-rn-primitives/slot": "workspace:*",
+    "@dino-rn-primitives/types": "workspace:*"
   },
   "devDependencies": {
     "@tsconfig/react-native": "^1.0.1",
@@ -55,5 +55,14 @@
     "react-native-web": {
       "optional": true
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ailearningguy/ryan-rn-primitives.git",
+    "directory": "packages/tabs"
+  },
+  "author": "dino <ailearningguy@gmail.com>",
+  "publishConfig": {
+    "access": "public"
   }
 }

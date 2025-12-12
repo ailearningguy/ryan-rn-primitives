@@ -1,4 +1,4 @@
-import type { Insets } from '@rn-primitives/types';
+import type { Insets } from '@dino-rn-primitives/types';
 import * as React from 'react';
 import { Dimensions, type LayoutRectangle, type ScaledSize } from 'react-native';
 

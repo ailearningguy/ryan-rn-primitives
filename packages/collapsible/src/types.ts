@@ -4,7 +4,7 @@ import type {
   SlottablePressableProps,
   SlottableViewProps,
   ViewRef,
-} from '@rn-primitives/types';
+} from '@dino-rn-primitives/types';
 
 interface RootContext {
   open: boolean;

@@ -3,9 +3,9 @@ import {
   useControllableState,
   useRelativePosition,
   type LayoutPosition,
-} from '@rn-primitives/hooks';
-import { Portal as RNPPortal } from '@rn-primitives/portal';
-import * as Slot from '@rn-primitives/slot';
+} from '@dino-rn-primitives/hooks';
+import { Portal as RNPPortal } from '@dino-rn-primitives/portal';
+import * as Slot from '@dino-rn-primitives/slot';
 import * as React from 'react';
 import {
   BackHandler,

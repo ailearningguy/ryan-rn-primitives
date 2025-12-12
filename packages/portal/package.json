@@ -1,5 +1,5 @@
 {
-  "name": "@rn-primitives/portal",
+  "name": "@dino-rn-primitives/portal",
   "version": "1.3.0",
   "description": "Primitive portal",
   "license": "MIT",
@@ -47,5 +47,14 @@
     "react-native-web": {
       "optional": true
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ailearningguy/ryan-rn-primitives.git",
+    "directory": "packages/portal"
+  },
+  "author": "dino <ailearningguy@gmail.com>",
+  "publishConfig": {
+    "access": "public"
   }
 }

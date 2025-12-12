@@ -3,7 +3,7 @@ import type {
   SlottablePressableProps,
   SlottableViewProps,
   ViewRef,
-} from '@rn-primitives/types';
+} from '@dino-rn-primitives/types';
 
 type RootProps = SlottablePressableProps & {
   checked: boolean;

@@ -5,7 +5,7 @@ import type {
   SlottablePressableProps,
   SlottableViewProps,
   ViewRef,
-} from '@rn-primitives/types';
+} from '@dino-rn-primitives/types';
 import type { ViewProps } from 'react-native';
 
 type RootProps = SlottableViewProps & {
